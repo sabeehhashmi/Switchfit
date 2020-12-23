@@ -1,0 +1,136 @@
+/*Start FAQ's*/
+.accordion {
+    color: #000;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 19px;
+    transition: 0.4s;
+    font-family: 'ProximaNova-Regular';
+    font-weight: normal;
+    margin: 0 0 20px;
+    background: #ddd;
+}
+.active-accordion, .accordion:hover {
+    background-color: #eee;
+}
+.accordion::after {
+    content: '\002B';
+    color: #330b9c;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    font-size: 18px;
+}
+.active-accordion:after {
+    content: "\2212";
+}
+.panel-accordion {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+/*End FAQ's*/
+
+.custom-file .custom-file-label{
+    text-transform: capitalize !important;
+}
+
+/**
+ * @Description Custom CSS
+ * @Author Khuram Qadeer.
+ */
+
+ .custom-select.is-invalid, .form-control.is-invalid, .was-validated .custom-select:invalid, .was-validated .form-control:invalid{
+    border: 2px solid #dc3545 !important;
+}
+
+.img-icon{
+    width: 25px;
+    height: 25px;
+}
+
+.div-disable{
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+.color_blue{
+    color: #3c15a3;
+}
+
+/*dropzone*/
+.dropzone{
+    border: 2px dashed #e6ebfd !important;
+}
+
+.dropzone.dz-clickable .dz-message, .dropzone.dz-clickable .dz-message *{
+    color: #c2c5d4 !important;
+    font-size: 20px;
+}
+
+/*end dropzone*/
+
+.manage_visit_tbl.table.table-visit th,
+.manage_visit_tbl.table.table-visit td{
+    text-align: center !important;
+}
+
+.ui-datepicker-header.ui-widget-header.ui-helper-clearfix.ui-corner-all {
+    background: #432E93 none repeat scroll 0 0;
+    color: #fff;
+}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    background: #432E93 none repeat scroll 0 0 !important;
+    border: 0 none;
+    border-radius: 5px;
+    color: #fff !important;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    background: transparent none repeat scroll 0 0 !important;
+    border: 1px solid transparent !important;
+    color: #3d3d3d !important;
+    font-weight: normal;
+}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight{
+    background: #432E93 none repeat scroll 0 0 !important;
+    border: 1px solid #432E93 !important;
+    color: #fff !important;
+    border-radius: 10px !important;
+}
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span {
+    background-color: #fff;
+    border-radius: 10px;
+}
+.checkbox.form-check-inline.checkbox-primary.text-left.custom-text {
+    width: 29% !important;
+}
+
+@media (max-width: 1260px) {
+    .checkbox.form-check-inline.checkbox-primary.text-left.custom-text{
+        width: 27%;
+    }
+}
+
+.pointer_none{
+    pointer-events: none;
+}
+
+span.fa.fa-calendar.input-calendar {
+    position: absolute;
+    right: 15px;
+    top: 43px;
+    font-size: 22px;
+    z-index: 9999;
+    color: #3c15a3;
+}
+.payout-status-pending{
+    width: 40%;
+    float: left;
+}
